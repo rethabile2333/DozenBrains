@@ -10,9 +10,9 @@
    ========================================================= */
 
 :root {
-  --primary: #2563eb;
-  --primary-dark: #1d4ed8;
-  --primary-light: #eff6ff;
+  --primary: #f97316;
+  --primary-dark: #ea580c;
+  --primary-light: #fff7ed;
 
   --dark: #0b1220;
   --dark-2: #111827;
@@ -218,13 +218,13 @@ h2 span {
 .btn-primary {
   background: var(--primary);
   color: white;
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.22);
+  box-shadow: 0 8px 20px rgba(249, 115, 22, 0.22);
 }
 
 .btn-primary:hover {
   background: var(--primary-dark);
   transform: translateY(-3px);
-  box-shadow: 0 12px 25px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 12px 25px rgba(249, 115, 22, 0.3);
 }
 
 .btn-outline {
@@ -255,7 +255,7 @@ h2 span {
   background:
     radial-gradient(
       circle at 85% 20%,
-      rgba(37, 99, 235, 0.16),
+      rgba(249, 115, 22, 0.16),
       transparent 32%
     ),
     linear-gradient(
@@ -272,8 +272,8 @@ h2 span {
   opacity: 0.45;
 
   background-image:
-    linear-gradient(rgba(37, 99, 235, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(37, 99, 235, 0.06) 1px, transparent 1px);
+    linear-gradient(rgba(249, 115, 22, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(249, 115, 22, 0.06) 1px, transparent 1px);
 
   background-size: 45px 45px;
 
@@ -296,7 +296,7 @@ h2 span {
 
   border-radius: 50%;
 
-  background: rgba(37, 99, 235, 0.08);
+  background: rgba(249, 115, 22, 0.08);
 
   filter: blur(2px);
 }
@@ -400,7 +400,7 @@ h2 span {
   background:
     radial-gradient(
       circle at 50% 0%,
-      rgba(37, 99, 235, 0.13),
+      rgba(249, 115, 22, 0.13),
       transparent 40%
     ),
     var(--light);
@@ -421,7 +421,7 @@ h2 span {
 
   border-radius: 50%;
 
-  background: rgba(37, 99, 235, 0.07);
+  background: rgba(249, 115, 22, 0.07);
 }
 
 .page-hero .container {
@@ -544,7 +544,7 @@ h2 span {
 .service-card:hover {
   transform: translateY(-8px);
 
-  border-color: #bfdbfe;
+  border-color: #fed7aa;
 
   box-shadow: var(--shadow);
 }
@@ -597,11 +597,11 @@ h2 span {
 }
 
 .dark-section .eyebrow {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 .dark-section .eyebrow::before {
-  background: #60a5fa;
+  background: #fb923c;
 }
 
 .dark-section h2 {
@@ -611,7 +611,7 @@ h2 span {
 }
 
 .dark-section h2 span {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 /* =========================================================
@@ -645,7 +645,7 @@ h2 span {
 
   flex-shrink: 0;
 
-  color: #60a5fa;
+  color: #fb923c;
 
   margin-top: 3px;
 }
@@ -686,7 +686,7 @@ h2 span {
   background:
     radial-gradient(
       circle at 100% 0%,
-      rgba(96, 165, 250, 0.22),
+      rgba(251, 146, 60, 0.22),
       transparent 35%
     ),
     var(--dark);
@@ -707,7 +707,7 @@ h2 span {
 }
 
 .cta .eyebrow {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 /* =========================================================
@@ -954,7 +954,7 @@ h2 span {
 .contact-form select:focus {
   border-color: var(--primary);
 
-  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+  box-shadow: 0 0 0 3px rgba(249, 115, 22, 0.1);
 }
 
 .contact-form .btn {
@@ -1008,7 +1008,7 @@ h2 span {
 .big-service-card:hover {
   transform: translateY(-7px);
 
-  border-color: #bfdbfe;
+  border-color: #fed7aa;
 
   box-shadow: var(--shadow);
 }
@@ -1208,7 +1208,7 @@ h2 span {
     linear-gradient(
       135deg,
       var(--primary-light),
-      #dbeafe
+      #ffedd5
     );
 
   color: var(--primary);
@@ -1713,7 +1713,7 @@ h2 span {
    ========================================================= */
 
 :focus-visible {
-  outline: 3px solid rgba(37, 99, 235, 0.35);
+  outline: 3px solid rgba(249, 115, 22, 0.35);
   outline-offset: 3px;
 }
 
@@ -1722,7 +1722,7 @@ h2 span {
    ========================================================= */
 
 ::selection {
-  background: #bfdbfe;
+  background: #fed7aa;
   color: var(--dark);
 }
 
@@ -1808,7 +1808,7 @@ h2 span {
   color: white;
 
   box-shadow:
-    0 7px 18px rgba(37, 99, 235, 0.25);
+    0 7px 18px rgba(249, 115, 22, 0.25);
 
   transition: var(--transition);
 }
@@ -1905,7 +1905,7 @@ h2 span {
 
   font-weight: 700;
 
-  box-shadow: 0 7px 18px rgba(37, 99, 235, 0.2);
+  box-shadow: 0 7px 18px rgba(249, 115, 22, 0.2);
 
   transition: var(--transition);
 }
@@ -1917,7 +1917,7 @@ h2 span {
 
   transform: translateY(-2px);
 
-  box-shadow: 0 10px 22px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 10px 22px rgba(249, 115, 22, 0.3);
 }
 
 /* =========================================================
@@ -2003,7 +2003,7 @@ h2 span {
 }
 
 .footer-brand span {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 .footer-grid > div:first-child p {
@@ -2089,7 +2089,7 @@ h2 span {
 .footer-grid > div:nth-child(3) p svg {
   flex-shrink: 0;
 
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 .footer-grid > div:nth-child(3) p span {
@@ -2128,7 +2128,7 @@ h2 span {
 }
 
 .footer-bottom svg {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 /* =========================================================
@@ -2283,8 +2283,8 @@ h2 span {
   border-radius: 6px;
   background: linear-gradient(
     90deg,
-    rgba(37, 99, 235, 0.1),
-    rgba(37, 99, 235, 0.03)
+    rgba(249, 115, 22, 0.1),
+    rgba(249, 115, 22, 0.03)
   );
   color: var(--primary) !important;
   font-size: 0.85rem;
@@ -2430,14 +2430,14 @@ h2 span {
 
   background: linear-gradient(
     135deg,
-    #2563eb 0%,
-    #0891b2 100%
+    #f97316 0%,
+    #ea580c 100%
   );
 
-  border: 1px solid rgba(96, 165, 250, 0.45);
+  border: 1px solid rgba(251, 146, 60, 0.45);
 
   box-shadow:
-    0 10px 30px rgba(37, 99, 235, 0.25),
+    0 10px 30px rgba(249, 115, 22, 0.25),
     inset 0 1px rgba(255, 255, 255, 0.2);
 }
 
@@ -2477,8 +2477,8 @@ h2 span {
   transform: translateY(-4px);
 
   box-shadow:
-    0 18px 40px rgba(37, 99, 235, 0.4),
-    0 0 25px rgba(6, 182, 212, 0.2);
+    0 18px 40px rgba(249, 115, 22, 0.4),
+    0 0 25px rgba(249, 115, 22, 0.2);
 }
 
 
@@ -2514,15 +2514,15 @@ h2 span {
 .hero-btn.secondary:hover {
   transform: translateY(-4px);
 
-  color: #67e8f9;
+  color: #fdba74;
 
-  background: rgba(34, 211, 238, 0.08);
+  background: rgba(251, 146, 60, 0.08);
 
-  border-color: rgba(34, 211, 238, 0.65);
+  border-color: rgba(251, 146, 60, 0.65);
 
   box-shadow:
-    0 12px 30px rgba(6, 182, 212, 0.15),
-    0 0 20px rgba(6, 182, 212, 0.08);
+    0 12px 30px rgba(249, 115, 22, 0.15),
+    0 0 20px rgba(249, 115, 22, 0.08);
 }
 
 
@@ -2566,7 +2566,7 @@ h2 span {
 
 
 .scroll-explore:hover {
-  color: #67e8f9;
+  color: #fdba74;
 
   transform:
     translateX(-50%)
@@ -2600,10 +2600,10 @@ h2 span {
 
 
 .scroll-explore:hover .scroll-mouse {
-  border-color: #22d3ee;
+  border-color: #fb923c;
 
   box-shadow:
-    0 0 18px rgba(34, 211, 238, 0.25);
+    0 0 18px rgba(251, 146, 60, 0.25);
 }
 
 
@@ -2619,7 +2619,7 @@ h2 span {
 
   border-radius: 10px;
 
-  background: #22d3ee;
+  background: #fb923c;
 
   animation:
     scrollWheel 1.8s ease-in-out infinite;
@@ -2730,13 +2730,13 @@ h2 span {
 
   letter-spacing: 2px;
 
-  color: #0f990f;
+  color: #0d0e0d;
 
   white-space: nowrap;
 }
 
 .logo-label span {
-  color: #60a5fa;
+  color: #fb923c;
 }
 
 
@@ -2789,11 +2789,11 @@ h2 span {
 
   border-radius: 50%;
 
-  background: #22d3ee;
+  background: #fb923c;
 
   box-shadow:
-    0 0 6px rgba(34, 211, 238, 0.9),
-    0 0 12px rgba(34, 211, 238, 0.45);
+    0 0 6px rgba(251, 146, 60, 0.9),
+    0 0 12px rgba(251, 146, 60, 0.45);
 
   animation: statusPulse 2s ease-in-out infinite;
 }
@@ -2832,7 +2832,7 @@ h2 span {
 }
 
 .contact-location-link:hover strong {
-  color: #2563eb;
+  color: #f97316;
 }
 
 .contact-location-link p {
@@ -2841,14 +2841,14 @@ h2 span {
 
 .directions-text {
   display: inline-block;
-  color: #2563eb;
+  color: #f97316;
   font-size: 13px;
   font-weight: 700;
   transition: color 0.3s ease;
 }
 
 .contact-location-link:hover .directions-text {
-  color: #0891b2;
+  color: #ea580c;
 }
 
 
