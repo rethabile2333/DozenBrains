@@ -132,7 +132,7 @@ export default function Home() {
                 <div className="logo-shine"></div>
 
                 <img
-                  src="/logo.jpeg"
+                  src="/db.jpeg"
                   alt="DozenBrains Logo"
                   className="hero-logo"
                 />
