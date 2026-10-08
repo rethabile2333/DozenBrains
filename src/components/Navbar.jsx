@@ -20,7 +20,7 @@ export default function Navbar() {
 
         <Link to="/" className="brand" onClick={() => setOpen(false)}>
           <img
-            src="/logo.jpeg"
+            src="/db.jpeg"
             alt="DozenBrains Logo"
             className="brand-logo"
           />
